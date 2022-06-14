@@ -45,12 +45,6 @@ async function infoUser() {
         });
     info.innerHTML = temp;
 }
-
-
-
-
-
-
 async function getUser() {
     let temp = '';
     const table = document.querySelector('#tableUser tbody');
@@ -88,7 +82,6 @@ async function getUser() {
             })
         })
 }
-
 async function tittle() {
     let temp = ''
     const h1a1 = document.querySelector('#h1a1');
@@ -104,7 +97,6 @@ async function tittle() {
         h1a1.innerHTML = temp;
     }
 }
-
 async function getUsers() {
     let temp = '';
     const table = document.querySelector('#tableAllUsers tbody');
@@ -135,7 +127,6 @@ async function getUsers() {
             table.innerHTML = temp;
 
         })
-
     $("#tableAllUsers").find('button').on('click', (event) => {
         let defaultModal = $('#defaultModal');
 
